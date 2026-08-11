@@ -1,0 +1,277 @@
+@media (max-width: 1600px) {
+    .techno-div h2 {
+        font-size: 28px;
+    }
+
+.card-content {
+    padding: 40px 30px;
+}
+}
+
+@media (max-width: 1400px) {
+    .main-title {
+        font-size: 72px;
+    }
+
+    .sub-title,
+    .brand-text,
+    .card-content h2 {
+        font-size: 47px;
+    }
+
+    .top_100 {
+        padding: 80px;
+    }
+
+    .pad_side {
+        padding: 0px 80px;
+    }
+
+    .pad_min {
+        padding: 64px 80px;
+    }
+
+    .low_footer {
+        padding: 24px 80px;
+    }
+
+    .card-sec h2 {
+        font-size: 48px;
+    }
+
+    .card-sec span {
+        font-size: 20px;
+    }
+
+    .card-content {
+        padding: 32px 24px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .main-title {
+        font-size: 60px;
+    }
+
+    .about_faq>.col-lg-6 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .faq_question {
+        padding: 16px 0px;
+        font-size: 22px;
+    }
+
+    .faq_item.active .faq_answer p {
+        padding: 0 0 16px;
+    }
+
+    .card-sec h2 {
+        font-size: 42px;
+    }
+
+    .card-sec span {
+        font-size: 18px;
+    }
+
+    .card-content {
+        padding: 28px 18px;
+    }
+
+    .card-content p {
+        max-width: 220px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .top_100 {
+        padding: 80px 40px;
+    }
+
+    .pad_side {
+        padding: 0px 40px;
+    }
+
+    .pad_min {
+        padding: 64px 40px;
+    }
+
+    .pre_footer_div {
+        padding: 32px;
+    }
+
+    .low_footer {
+        padding: 24px 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-title {
+        font-size: 45px;
+    }
+
+    .sub-title,
+    .brand-text,
+    .card-content h2 {
+        font-size: 35px;
+    }
+
+    .about-content {
+        max-width: 650px;
+    }
+
+    .faq_content p {
+        max-width: 800px;
+    }
+
+    .faq_question {
+        padding: 20px 0px;
+        font-size: 22px;
+    }
+
+    .card-content {
+        padding: 32px 20px;
+    }
+
+    .card-sec h2 {
+        font-size: 38px;
+    }
+
+    .card-sec span {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        max-width: 250px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 35px;
+    }
+
+    .sub-title,
+    .brand-text,
+    .card-content h2 {
+        font-size: 30px;
+    }
+
+    .top_100 {
+        padding: 50px 20px;
+    }
+
+    .pad_min {
+        padding: 50px 20px;
+    }
+
+    .pad_side {
+        padding: 0px 20px;
+    }
+
+    .fs-18 {
+        font-size: 16px;
+    }
+
+    .btn-content,
+    .View_btn {
+        padding: 4px 8px;
+    }
+
+    .fs-22 {
+        font-size: 20px;
+    }
+
+    .faq_question {
+        font-size: 20px;
+    }
+
+    .pre_footer_div {
+        padding: 20px;
+    }
+
+    .low_footer {
+        padding: 20px;
+    }
+
+    .card-sec .row {
+        row-gap: 1px;
+    }
+
+    .card-content {
+        padding: 28px 15px;
+    }
+
+    .card-sec h2 {
+        font-size: 34px;
+    }
+
+    .card-sec span {
+        font-size: 17px;
+    }
+
+    .card-content p {
+        font-size: 15px;
+        max-width: 260px;
+    }
+    
+    .contact-text, .mail-link {
+        font-size: 18px !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .top_100 {
+        padding: 40px 10px;
+    }
+
+    .pad_min {
+        padding: 40px 10px;
+    }
+
+    .up_footer a {
+        font-size: 14px;
+    }
+
+    .card-content span {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        max-width: 100%
+    }
+}
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 30px;
+    }
+
+    .sub-title,
+    .brand-text {
+        font-size: 25px;
+    }
+
+    .card-content {
+        padding: 24px 10px;
+    }
+
+    .card-sec h2 {
+        font-size: 30px;
+    }
+
+    .card-sec span {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+
+}
