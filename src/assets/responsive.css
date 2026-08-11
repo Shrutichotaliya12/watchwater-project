@@ -502,3 +502,25 @@
 
 
 }
+@media (max-width: 1400px) {
+    .product-mega-menu, .application-mega-menu {
+        width: 850px !important;
+        min-width: 850px !important;
+    }
+    .websites-mega-menu {
+        width: 600px !important;
+        min-width: 600px !important;
+    }
+    .mega-menu {
+        height: 441.66px !important;
+        padding: 8px !important;
+    }
+}
+
+
+@media (max-width: 1160px) {
+    .mobile-hide {
+        display: none !important;
+    }
+}
+

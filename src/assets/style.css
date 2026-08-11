@@ -1501,3 +1501,34 @@ footer h6 {
         display: none;
     }
 }
+
+/* Product Group Items Gap Setting */
+.group_items {
+    column-gap: 18px;
+    row-gap: 0;
+}
+
+/* System (POE & POU) Columns Alignment */
+.system_groups {
+    column-gap: 18px;
+}
+
+/* Text Overflow Fix */
+.group_item span { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+
+/* Image Width Fix */
+.product_detail_image {
+    min-width: 0;
+    overflow: hidden;
+}
+
+/* Hover Animation SVG (Fill) */
+.product_item:hover svg path {
+    fill: #222931;
+    stroke: none;
+}
+

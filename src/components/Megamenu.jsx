@@ -34,7 +34,7 @@ export default function MegaMenu({ data = megaMenuData }) {
                     style={{ background: "#F8FAFB", height: "100%", overflow: "hidden" }}
                 >
                     {/* Left Side */}
-                    <div className="col-lg-4 h-100 col-sm-12">
+                    <div className={`col-lg-4 h-100 col-sm-12 ${mobileStep === 2 ? 'mobile-hide' : ''}`}>
                         <div className="product-div h-100">
 
                             <h4 className="mb-4">
@@ -94,7 +94,12 @@ export default function MegaMenu({ data = megaMenuData }) {
                                 background: selectedCategory?.bgColor || "#ECF0F5",
                             }}
                         >
-                            <h4 className="mb-4">
+                            <h4 className="mb-4 d-flex align-items-center gap-2">
+                                <button className="btn btn-sm btn-light d-lg-none p-1" onClick={handleBackClick}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                      <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                    </svg>
+                                </button>
                                 {selectedCategory.title}
                             </h4>
 
@@ -151,7 +156,7 @@ export default function MegaMenu({ data = megaMenuData }) {
                                 <h2 className="mb-3">
                                     {selectedItem?.title}
                                 </h2>
-                                <p style={{ marginBottom: '8px' }}>
+                                <p style={{ marginBottom: '5px' }}>
                                     {selectedItem?.description}
                                 </p>
                             </div>
